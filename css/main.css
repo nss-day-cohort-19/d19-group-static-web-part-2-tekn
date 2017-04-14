@@ -1,0 +1,50 @@
+/* General */
+body {
+	margin: 0;
+	font-family: helvetica;
+}
+
+/* Header */
+header {
+	background-color: darkslategrey;
+	margin: 0;
+	padding: 15px 0;
+}
+
+h1 {
+	margin: 0;
+	text-align: center;
+	color: honeydew;
+	font-family: 'Orbitron', sans-serif;
+}
+
+/* Nav */
+nav {
+	background-color: darkgreen;
+}
+nav li {
+	display: inline-block;
+	text-decoration: none;
+	padding: 0 10px;
+	color: honeydew;
+}
+li a {
+	color: honeydew;
+	text-decoration: none;
+}
+li a:hover {
+	color: powderblue;
+}
+ul {
+	margin: 0;
+	text-align: center;
+}
+
+
+/* Footer */
+footer {
+	background-color: darkgreen;
+	text-align: center;
+	color: honeydew;
+}
+
