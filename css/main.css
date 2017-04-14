@@ -52,6 +52,8 @@ footer {
 	padding: 10px;
 }
 
+
+
 /* Product Page */
 
 div#games {
@@ -73,6 +75,64 @@ div#games {
 
 .card h2 {
 	text-transform: uppercase;
+}
+
+/* News Page */
+
+article {
+	width: 65%;
+	margin: auto;
+	padding-top: 10px;
+	background-color: darkslategrey;
+	border-radius: 5%;
+	border: 1px solid black;
+	margin-bottom: 10px;
+}
+
+
+h2.orbitron {
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bolder;
+}
+
+/*backgrounds*/
+article#one {
+	background-image: url("../img/tahiti.JPG");
+}
+
+section {
+	background-color: rgba(225, 225, 225, 0.9);
+}
+
+section p {
+	opacity: 1;
+	padding: 10px;
+}
+
+article.two {
+	background-image: url("../img/Gaming-Deals.JPG"), linear-gradient(rgba(256, 256, 256, 0.5), rgba(256, 256, 256, 0.5));
+}
+
+article.three {
+	background-image: url("../img/marioparty.JPG");
+}
+article.four {
+	background-image: url("../img/TV.jpeg");
+}
+
+article.last {
+	background-image: url("../img/racing.jpg");
+	margin-bottom: 20px;
+}
+
+p.footer {
+	text-align: center;
+	padding: 20px;
+}
+
+.back {
+	text-align: center;
+	text-decoration: none;
 }
 
 
