@@ -9,16 +9,15 @@ var games = [{name: "Sword and Sorcery", description: "Save the world from drago
 {name: "Resident Evil", description: "Get excited for a scary game!", price: 50, img: ""}];
 
 
-var name = "";
+// var name = ("Uncharted", "MarioKart", "Tomb Raider", "Monaco", "Grand Theft Auto", "Witness", "Braid", "Resident Evil");
 
-for (prop in games) {
-	console.log(prop, games[prop]);
-};
+// // var gameString = "<h3>" + gameName + "</h3>" + "<p>" + gameDescription + "</p>" + "<p>" + gamePrice + "</p>" + currentImage>;
+
+
+
 for (var i = 0; i < games.length; i++) {
-	games.forEach(function(){
-		name += games[i].name;
-		console.log("name", games[0].name);
-	});
+		var gameString = "<div class = 'card game'" + (i + 1) + "><h2>" + games[i].name + "</h2><p>" + games[i].description + "</p>" + "<p>" + "$" + games[i].price + "</p>" + "<p>" + "<img class='' src='" + games[i].img + "'></div>";
+		document.getElementById("games").innerHTML += gameString;
 };
-		document.getElementById("games").innerHTML = name;
+
 
