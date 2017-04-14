@@ -1,0 +1,53 @@
+/* Index Page */
+
+div#main {
+	height: 100vh;
+}
+
+
+nav.indexNav {
+	margin: 0;
+}
+
+.indexGames, .indexNews, .indexAbout, .indexContact {
+	text-transform: uppercase;
+	font-family: 'Orbitron', sans-serif;
+	background-size: cover;
+	height: 46%;
+	width: 45%;
+	margin: 2%;
+	font-size: 2em;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ .indexGames, .indexAbout {
+	float: left;
+}
+
+.indexGames h3 {
+	color: white;
+}
+
+.indexNews, .indexContact {
+	float: right;
+}
+
+.indexGames {
+	background-image: url(../img/indexsns.jpg);
+	color: white;
+}
+
+.indexNews {
+	background-image: url(../img/indexyww.png);
+	color: black;
+}
+
+.indexAbout {
+	background-image: url(../img/indexbraid.jpg);
+	color: black;
+}
+
+.indexContact {
+	background-image: url(../img/indexmonaco.jpg);
+	color: white;
+}
