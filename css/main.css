@@ -50,10 +50,16 @@ footer {
 	text-align: center;
 	color: honeydew;
 	padding: 10px;
+	clear: both;
 }
+
+
 
 /* Product Page */
 
+div#games {
+	text-align: center;
+}
 
 .card {
 	background-color: white;
@@ -62,7 +68,6 @@ footer {
 	margin: 10px;
 	text-align:	center;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 .card img {
@@ -71,8 +76,66 @@ footer {
 
 .card h2 {
 	text-transform: uppercase;
-
 }
+
+/* News Page */
+
+article {
+	width: 65%;
+	margin: auto;
+	padding-top: 10px;
+	background-color: darkslategrey;
+	border-radius: 5%;
+	border: 1px solid black;
+	margin-bottom: 10px;
+}
+
+
+h2.orbitron {
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bolder;
+}
+
+/*backgrounds*/
+article#one {
+	background-image: url("../img/tahiti.JPG");
+}
+
+section {
+	background-color: rgba(225, 225, 225, 0.9);
+}
+
+section p {
+	opacity: 1;
+	padding: 10px;
+}
+
+article.two {
+	background-image: url("../img/Gaming-Deals.JPG"), linear-gradient(rgba(256, 256, 256, 0.5), rgba(256, 256, 256, 0.5));
+}
+
+article.three {
+	background-image: url("../img/marioparty.JPG");
+}
+article.four {
+	background-image: url("../img/TV.jpeg");
+}
+
+article.last {
+	background-image: url("../img/racing.jpg");
+	margin-bottom: 20px;
+}
+
+p.footer {
+	text-align: center;
+	padding: 20px;
+}
+
+.back {
+	text-align: center;
+	text-decoration: none;
+}
+
 
 /* About Page*/
 #tekn-name-logo {
@@ -112,8 +175,46 @@ footer {
 }
 #stock-price-header {
 	/*text-align: center;*/
+  
+/* Contact Page */
+
+#name,
+#email,
+#message,
+#submit_button {
+	margin: 5px auto;
+	font-size: 14pt;
 }
 
+#wrappercontact {
+	margin: 25px auto;
 
+}
 
+.primarycontact {
+    width: 25%;
+    float: left;
+    margin: 3%;
+    padding-left: 75px;
+  }
 
+.secondarycontact {
+	width: 40%;
+	float: right;
+	margin: 3%;
+}
+
+.secondarycontact ul li {
+	text-decoration none;
+	list-style: none;
+}
+
+.contact-info {
+	margin: 0 25px 0 0;
+	text-align: left;
+}
+
+.intouch {
+	font-family:'Orbitron', sans-serif;
+	text-shadow: 2px 2px #fff;
+}
