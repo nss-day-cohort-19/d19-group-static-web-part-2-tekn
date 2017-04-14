@@ -74,7 +74,45 @@ footer {
 
 }
 
-
+/* About Page*/
+#tekn-name-logo {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 1.2em;
+}
+#about-us-img {
+	border: solid .1em darkslategrey;
+	border-radius: 25%;
+	float:right;
+	padding: 0 0 2em 2em;
+	zoom: 60%;
+}
+#about {
+	background-color: darkslategrey;
+	color: honeydew;
+	width: 80%;
+	border: solid .25em darkslategrey;
+	border-radius: 10%;
+	display: block;
+	margin: 5em 10em 5em 10em;
+	padding-bottom: 2em;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#about h2 {
+	padding: 1em 0 0 1em;
+	font-size: 3em;
+/*font-style: italic;*/
+}
+#about p {
+	text-align: justify;
+	padding: 1em 5em 1em 5em;
+}
+#stock-price {
+	margin: 4em;
+	display:block;
+}
+#stock-price-header {
+	/*text-align: center;*/
+}
 
 
 
