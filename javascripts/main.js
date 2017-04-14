@@ -9,14 +9,10 @@ var games = [{name: "Sword and Sorcery", description: "Save the world from drago
 {name: "Resident Evil", description: "Get excited for a scary game!", price: 50, img: "img/resident-evil.jpg"}];
 
 
-// var name = ("Uncharted", "MarioKart", "Tomb Raider", "Monaco", "Grand Theft Auto", "Witness", "Braid", "Resident Evil");
-
-// // var gameString = "<h3>" + gameName + "</h3>" + "<p>" + gameDescription + "</p>" + "<p>" + gamePrice + "</p>" + currentImage>;
-
-
-
-for (var i = 0; i < games.length; i++) {
-		var gameString = "<div class = 'card game'" + (i + 1) + "><h2>" + games[i].name + "</h2><p>" + games[i].description + "</p>" + "<p>" + "$" + games[i].price + "</p>" + "<p>" + "<img class='' src='" + games[i].img + "'></div>";
+for (var i = 0; i < games.length; i++) { // loop through the array
+		/// made a variable assigned to a string that will get looped through
+		var gameString = "<div class = 'card game" + (i + 1) + "'><h2>" + games[i].name + "</h2><p>" + games[i].description + "</p>" + "<p>" + "$" + games[i].price + "</p>" + "<p>" + "<img class='' src='" + games[i].img + "'></div>";
+		// assign the string, which has been looped through to the div "games" and come back around to being again
 		document.getElementById("games").innerHTML += gameString;
 };
 

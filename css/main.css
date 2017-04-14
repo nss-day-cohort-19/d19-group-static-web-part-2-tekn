@@ -48,3 +48,18 @@ footer {
 	color: honeydew;
 }
 
+/* Product Page */
+
+.card {
+	background-color: darkcyan;
+	display: inline-block;
+	width: 30%;
+	margin: 10px;
+
+}
+
+.game1 {
+
+}
+
+
