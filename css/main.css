@@ -50,6 +50,7 @@ footer {
 	text-align: center;
 	color: honeydew;
 	padding: 10px;
+	clear: both;
 }
 
 /* Product Page */
@@ -74,8 +75,44 @@ footer {
 
 }
 
+/* Contact Page */
 
+#name,
+#email,
+#message,
+#submit_button {
+	margin: 5px auto;
+	font-size: 14pt;
+}
 
+#wrappercontact {
+	margin: 25px auto;
+}
 
+.primarycontact {
+    width: 25%;
+    float: left;
+    margin: 3%;
+    padding-left: 75px;
+  }
 
+.secondarycontact {
+	width: 40%;
+	float: right;
+	margin: 3%;
+}
 
+.secondarycontact ul li {
+	text-decoration none;
+	list-style: none;
+}
+
+.contact-info {
+	margin: 0 25px 0 0;
+	text-align: left;
+}
+
+.intouch {
+	font-family:'Orbitron', sans-serif;
+	text-shadow: 2px 2px #fff;
+}
