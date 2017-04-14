@@ -1,12 +1,12 @@
-var games = [{name: "Sword and Sorcery", description: "Save the world from dragons!", price: 20, img: ""},
-{name: "Uncharted", description: "Drake looks for treasure!", price: 18, img: ""},
-{name: "MarioKart", description: "Ruin friendships with this intense game!", price: 50, img: ""},
-{name: "Tomb Raider", description: "Lara Croft achieves and kicks ass!", price: 42, img: ""},
-{name: "Monaco", description: "Race your face off!", price: 30, img: ""},
-{name: "Grand Theft Auto", description: "Moral conundrum!", price: 32, img: ""},
-{name: "Witness", description: "Puzzles and stuff!", price: 34, img: ""},
-{name: "Braid", description: "Brain teasers and increase your IQ!", price: 10, img: ""},
-{name: "Resident Evil", description: "Get excited for a scary game!", price: 50, img: ""}];
+var games = [{name: "Sword and Sorcery", description: "Save the world from dragons!", price: 20, img: "img/sword-and-sorcery.png"},
+{name: "Uncharted", description: "Drake looks for treasure!", price: 18, img: "img/uncharted.jpg"},
+{name: "MarioKart", description: "Ruin friendships with this intense game!", price: 50, img: "img/mario-kart.jpg"},
+{name: "Tomb Raider", description: "Lara Croft achieves and kicks ass!", price: 42, img: "img/tomb-raider.png"},
+{name: "Monaco", description: "Race your face off!", price: 30, img: "img/monaco.jpeg"},
+{name: "Grand Theft Auto", description: "Moral conundrum!", price: 32, img: "img/gta.jpg"},
+{name: "Witness", description: "Puzzles and stuff!", price: 34, img: "img/witness.jpg"},
+{name: "Braid", description: "Brain teasers and increase your IQ!", price: 10, img: "img/braid.jpg"},
+{name: "Resident Evil", description: "Get excited for a scary game!", price: 50, img: "img/resident-evil.jpg"}];
 
 
 // var name = ("Uncharted", "MarioKart", "Tomb Raider", "Monaco", "Grand Theft Auto", "Witness", "Braid", "Resident Evil");
