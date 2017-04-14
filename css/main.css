@@ -2,6 +2,7 @@
 body {
 	margin: 0;
 	font-family: helvetica;
+	background-color: lightgrey;
 }
 
 /* Header */
@@ -21,6 +22,8 @@ h1 {
 /* Nav */
 nav {
 	background-color: darkgreen;
+	margin-bottom: 15px;
+	padding: 10px 0;
 }
 nav li {
 	display: inline-block;
@@ -46,20 +49,33 @@ footer {
 	background-color: darkgreen;
 	text-align: center;
 	color: honeydew;
+	padding: 10px;
 }
 
 /* Product Page */
 
+
 .card {
-	background-color: darkcyan;
+	background-color: white;
 	display: inline-block;
 	width: 30%;
 	margin: 10px;
+	text-align:	center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
-.game1 {
+.card img {
+	width: 100%;
+}
+
+.card h2 {
+	text-transform: uppercase;
 
 }
+
+
+
+
 
 
